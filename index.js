@@ -35,6 +35,10 @@ function newTask(title, description) {
 //   console.log(`${title} has${complete ? " " : " not "}been completed`);
 // }
 
+//Accessing properties or methods of our tasks
+task1.title;
+task1.markCompleted();
+
 // DRIVER CODE BELOW
 
 const task1 = newTask("Clean Cat Litter", "Take all the 💩 out of the litter box");
